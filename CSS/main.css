@@ -1,0 +1,5 @@
+/* 1. Base, Reser e Tokens do design system */
+@import url(./design-system.css);
+
+/* 2. Estilos */
+@import url(./global.css);
