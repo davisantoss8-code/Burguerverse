@@ -33,6 +33,7 @@ body {
   align-items: center;
 }
 
+/* logo do cabeçalho */
 .header__logo {
   font-family: var(--font-heading);
   font-size: 2.4rem;
@@ -40,21 +41,25 @@ body {
   color: var(--color-primary);
 }
 
+/* span da logo */
 .header__logo span {
   color: var(--color-secondary);
 
 }
 
+/* menu do cabeçalho */
 .header__menu{
   display: flex;
   gap: 2.4rem;
 }
 
+/* link cabeçalho */
 .header__link {
   font-weight: 500;
   transition: color var(--trasmition-fast);
 }
 
+/* muda a cor do link ao passar o mouse por ele */
 .header__link:hover {
   color: var(--color-primary);
 }
@@ -82,3 +87,19 @@ body {
   background-color: var(--color-primary-hover);
 }
 
+/* Ivo vai Inserir codigo dos btns bem aqui */
+
+/* HERO SECTION - apresentação da marca */
+.hero {
+  padding: 8rem 0;
+  min-height: calc(100vh - 7rem);
+  display: flex;
+  align-items: center;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
